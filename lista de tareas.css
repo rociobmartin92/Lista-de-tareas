@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+*{
+   
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Palme_-_Rarotonga.jpg/1200px-Palme_-_Rarotonga.jpg");
+}
+
+.principal {
+    background-color: #EC7063;
+    height: 250px;
+    border: 3px solid black;
+    text-align: center;
+   
+    
+} 
+
+#titulo{
+    font-family: 'Playfair Display', serif;
+    font-style: oblique;
+    font-weight: lighter;
+    background-color: #EC7063;
+    margin: 30px;
+    }
+
+.form {
+    background-color: #EC7063;
+    text-align: center;
+    padding: 10px;
+   
+}
+
+.boton {
+    margin: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+.caja {
+    width: 500px;
+    height: 40px;
+}
+
+
+.divlista {
+    width: 1200px;
+}
+
+.lista {
+    padding: 20px;
+    box-sizing: border-box;
+   
+
+}
+
+/* ESTILO DE LOS PARRAFOR AGREGADOS CON JS */
+
+.tareas {
+
+    border-bottom: black 1px solid;
+    padding: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+    margin-left: 150px;
+    
+}
+
+.lista .tareas {
+
+    transition: 3s;
+}
+
+.tareas:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+
+.ColorPlaceholder::placeholder  {
+    
+    color: black;
+    font-weight: bold;
+}
+.ColorPlaceholder {
+
+    
+    width: 500px;
+    height: 40px;
+}
